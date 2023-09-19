@@ -3,7 +3,8 @@ package git_practice1;
 public class Main {
 
     public static void main(String[] args) {
-       new Hello().say();
+    	Hello hello = new Hello();
+        hello.say();
     }
 
 }
